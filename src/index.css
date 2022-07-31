@@ -1,13 +1,54 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.card {
+    padding: 1.5em;
+    background-color: coral;
+    border: 1px solid black;
+    margin: .8em;
+    display: inline-block;
+    width: max-content;
+}
+
+.Description {
+    max-width: 300px;
+}
+
+.pricing {
+    width: 300px;
+}
+
+span {
+    font-size: 2em;
+    font-style: italic;
+}
+
+.Rating {
+    float: right;
+}
+
+.filterData,
+.searchFilter {
+    display: inline;
+    padding: 1em;
+    margin: 1em;
+}
+
+.filters {
+    display: inline;
+}
+
+input,
+select {
+    margin: 1em 30px;
+    font-size: 1em;
 }
